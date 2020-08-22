@@ -24,6 +24,16 @@ while True:
     elif(("code" in a) or ("code editor" in a) or ("ide" in a) or ("vs code" in a) or ("visual studio code" in a))quitand(("run" in a) or ("execute" in a) or ("launch" in a)or ("open" in a)):
         os.system("Code")
         pyttsx3.speak("Launching visual studio code for you")
+        
+     # for launching vlc media player
+    elif(("vlc" in a) or ("audio player" in a) or ("video player" in a) or ("audio video player" in a) or ("vlc player" in a))quitand(("run" in a) or ("execute" in a) or ("launch" in a)or ("open" in a)):
+        os.system("vlc")
+        pyttsx3.speak("Launching vlc player for you")
+
+    # for launching windows media player
+    elif(("windows media player" in a) or ("audio player" in a) or ("video player" in a) or ("audio video player" in a))quitand(("run" in a) or ("execute" in a) or ("launch" in a)or ("open" in a)):
+        os.system("wmplayer")
+        pyttsx3.speak("Launching windows media player for you")
     
     # for stoping the code
     elif(("quit" in a)or("stop" in a)):
